@@ -1,4 +1,5 @@
-基于ItemCF的协同过滤 物品推荐系统  Collaborative filtering goods recommendation system based on ItemCF  
+# 基于ItemCF的协同过滤 物品推荐系统  Collaborative filtering goods recommendation system based on ItemCF  
+[![Travis](https://img.shields.io/badge/RecommendByItemCF-MapReduce-green.svg)](https://github.com/huangyueranbbc/RecommendByItemcf)  [![Travis](https://img.shields.io/badge/Apache-Hadoop-ff69b4.svg)](http://hadoop.apache.org/)
 Step1.run(config, paths);	 // 格式化 去重	Format reset  
 Step2.run(config, paths);	// 计算得分矩阵	Score matrix  
 Step3.run(config, paths);	// 计算同现矩阵	Computing co-occurrence matrix  
